@@ -1,13 +1,16 @@
 {
   "name": "boilerplate-",
-  "author": "Bruno Santos",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This is the boilerplate code for the Managing Packages With npm Challenges. Instructions for working on these challenges start at https://www.freecodecamp.org/learn/back-end-development-and-apis/managing-packages-with-npm/",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [],
-  "license": "ISC"
+  "keywords": ["freecodecamp","related","words"],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+
 }
